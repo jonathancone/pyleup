@@ -1,5 +1,8 @@
 # http://xkcd.com/353/
 
+# http://en.wikipedia.org/wiki/Diff#Unified_format
+# http://www.gnu.org/software/diffutils/manual/diffutils.html#Detailed-Unified
+
 import argparse
 import subprocess
 import xml.etree.cElementTree as ET
