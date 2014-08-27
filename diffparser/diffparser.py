@@ -1,4 +1,5 @@
 import re
+import unittest
 
 SRC_PATH_REGEX = re.compile(r"^--- (?P<path>)[\t]+\((?P<header>)\)")
 DEST_PATH_REGEX = re.compile(r"^\+\+\+ (?P<path>)[\t]+\((?P<header>)\)")
@@ -38,3 +39,7 @@ def parse(diff):
 		if result:
 			rev.dest_path = result['path']
 
+class TestClass(unittest.TestCase):
+
+	def test_mytest1(self):
+		self.assertTrue(True)
