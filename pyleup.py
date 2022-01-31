@@ -3,7 +3,7 @@ from datetime import datetime, timedelta
 
 # Change this to the message you would like to display:
 message_template = """
-| | | | |X| | | | | |X| | | |X|X|X| | | |X|X|X|X|X|X|X| |X| | | | | |X| |X|X|X|X|X|X|X| |X|X|X|X|X| | |
+| | | | |X| | | | | |X| | | |X|X|X| | | |X|X|X|X|X|X|X| |X| | | | | |X| |X|X|X|X|X|X|X| |X|X|X|X|X|X| |
 | | | | |X| | | | | |X| | |X| | | |X| | |X| | | | | | | |X| | | |X|X| | |X| | | | | | | |X| | | | | |X|
 | | | | |X| | | | | |X| |X| | | | | |X| |X| | | | | | | |X| | |X| | | | |X| | | | | | | |X| | | | | |X|
 | | | | |X|X|X|X|X|X|X| |X|X|X|X|X|X|X| |X| | | | | | | |X|X|X| | | | | |X|X|X|X|X|X|X| |X|X|X|X|X|X| |
